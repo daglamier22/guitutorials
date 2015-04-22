@@ -6,4 +6,4 @@ LDADD = $(GTKMM_LIBS)
 bin_PROGRAMS = guitutorials
 
 guitutorials_SOURCES = 	src/main.cpp				\
-						src/buttons.cpp
+						src/checkbuttons.cpp
