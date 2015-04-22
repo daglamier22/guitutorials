@@ -1,4 +1,4 @@
-#include "checkbuttons.hpp"
+#include "radiobuttons.hpp"
 #include <gtkmm/application.h>
 
 int main( int argc, char *argv[]) {
@@ -6,7 +6,7 @@ int main( int argc, char *argv[]) {
 			Gtk::Application::create(argc, argv, 
 			"org.gtkmm.examples.base");
 
-	CheckButtons checkbuttons;
+	RadioButtons radiobuttons;
 
-	return app->run(checkbuttons);
+	return app->run(radiobuttons);
 }
