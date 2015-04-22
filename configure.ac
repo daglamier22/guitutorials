@@ -17,6 +17,7 @@ AX_CXX_COMPILE_STDCXX_11
 AC_PROG_INSTALL
 
 # Checks for libraries.
+PKG_CHECK_MODULES([GTKMM], [gtkmm-3.0 >= 3.8.0])
 
 # Checks for header files.
 
