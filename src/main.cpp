@@ -1,4 +1,4 @@
-#include "helloworld.hpp"
+#include "buttons.hpp"
 #include <gtkmm/application.h>
 
 int main( int argc, char *argv[]) {
@@ -6,7 +6,7 @@ int main( int argc, char *argv[]) {
 			Gtk::Application::create(argc, argv, 
 			"org.gtkmm.examples.base");
 
-	HelloWorld helloworld;
+	Buttons buttons;
 
-	return app->run(helloworld);
+	return app->run(buttons);
 }
