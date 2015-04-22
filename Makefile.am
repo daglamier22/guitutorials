@@ -5,4 +5,5 @@ LDADD = $(GTKMM_LIBS)
 
 bin_PROGRAMS = guitutorials
 
-guitutorials_SOURCES = src/main.cpp
+guitutorials_SOURCES = 	src/main.cpp				\
+						src/helloworld.cpp
