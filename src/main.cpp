@@ -1,4 +1,4 @@
-#include "buttons.hpp"
+#include "checkbuttons.hpp"
 #include <gtkmm/application.h>
 
 int main( int argc, char *argv[]) {
@@ -6,7 +6,7 @@ int main( int argc, char *argv[]) {
 			Gtk::Application::create(argc, argv, 
 			"org.gtkmm.examples.base");
 
-	Buttons buttons;
+	CheckButtons checkbuttons;
 
-	return app->run(buttons);
+	return app->run(checkbuttons);
 }
