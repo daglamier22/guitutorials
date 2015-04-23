@@ -1,4 +1,4 @@
-#include "radiobuttons.hpp"
+#include "rangewidgets.hpp"
 #include <gtkmm/application.h>
 
 int main( int argc, char *argv[]) {
@@ -6,7 +6,7 @@ int main( int argc, char *argv[]) {
 			Gtk::Application::create(argc, argv, 
 			"org.gtkmm.examples.base");
 
-	RadioButtons radiobuttons;
+	RangeWidgets rangewidgets;
 
-	return app->run(radiobuttons);
+	return app->run(rangewidgets);
 }
